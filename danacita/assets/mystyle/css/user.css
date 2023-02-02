@@ -1,0 +1,174 @@
+header{
+	background-color: white;
+	top: 0;
+	padding: 10px 0;
+	z-index: 10;
+}
+footer{
+	background-color: white;
+	bottom: 0;
+	padding: 10px 0;
+	z-index: 10;
+}
+section{
+	padding-top: 35px;
+}
+a{
+	cursor: pointer;
+}
+.notif{
+	top: 0;
+	right: 32px;
+	padding: 7.5px 0;
+	font-size: 20px;
+}
+.opening{
+	background-color: rgb(248, 249, 250, 0.5);
+	min-height: 100vh;
+	width: 100%;
+	padding: 16px;
+}
+.menu-footer{
+	line-height: 18px;
+	font-size: 12px;
+	margin-bottom: -5px;
+}
+.menu-footer a{
+	color: #3151AA;
+}
+.menu-footer i{
+	font-size: 18px;
+}
+.cover-menu-beranda{
+	line-height: 16px;
+}
+.menu-beranda{
+	font-size: 13px;
+	color: #3151AA;
+}
+.menu-beranda i{
+	font-size: 18px;
+}
+.cara-kerja{
+	line-height: 18px;
+}
+.cara-kerja p.title{
+	font-size: 15px;
+}
+.cara-kerja p.desc{
+	margin-top: -10px;
+	font-size: 14px;
+}
+.lengkapi-profil i{
+	font-size: 36px;
+}
+.lengkapi-profil a{
+	font-weight: 600;
+}
+.bonus-harian p{
+	font-weight: 600;
+}
+.bonus-klaim{
+	font-size: 12px;
+}
+.transaksiterbaru a{
+	color: #3151AA;
+}
+.pembayaran-bulanan a .title{
+	color: #3151AA;
+}
+.top-next-payment{
+	background-color: white;
+}
+.top-next-payment a{
+	color: #3151AA;
+}
+.text-top-cover i{
+	font-size: 24px;
+	background-color: #3151AA;
+}
+.text-top{
+	font-size: 14px;
+	line-height: 18px;
+}
+.text-top b{
+	font-size: 15px;
+	color: #3151AA;
+}
+.ringkasan-pembayaran small{
+	font-size: 12px;
+}
+table tr td{
+	font-size: 11px;
+}
+table tr td button{
+	font-size: 11px;
+}
+.pembayaran-cek h5{
+	font-size: 18px;
+	font-weight: 600;
+	margin: 0;
+}
+.pembayaran-cek small{
+	font-size: 12px;
+	margin: 0;
+}
+.pembayaran-cek p{
+	font-size: 14px;
+	margin: 0;
+}
+@media screen and (min-width: 1201px){
+	header, footer{
+		left: 35%;
+		right: 35%;
+		width: 30%;
+	}
+	.owl-carousel .item ,
+	.owl-carousel .item  img{
+		height: 180px;
+	}
+}
+@media screen and (max-width: 1200px) and (min-width: 993px){
+	header, footer{
+		left: 30%;
+		right: 30%;
+		width: 40%;
+	}
+	.owl-carousel .item ,
+	.owl-carousel .item  img{
+		height: 180px;
+	}
+}
+@media screen and (max-width: 992px) and (min-width: 769px){
+	header, footer{
+		left: 30%;
+		right: 30%;
+		width: 40%;
+	}
+	.owl-carousel .item ,
+	.owl-carousel .item  img{
+		height: 180px;
+	}
+}
+@media screen and (max-width: 768px) and (min-width: 576px){
+	header, footer{
+		left: 25%;
+		right: 25%;
+		width: 50%;
+	}
+	.owl-carousel .item ,
+	.owl-carousel .item  img{
+		height: 150px;
+	}
+}
+@media screen and (max-width: 575px){
+	header, footer{
+		width: 100%;
+		left: 0;
+		right: 0;
+	}
+	.owl-carousel .item ,
+	.owl-carousel .item  img{
+		height: 150px;
+	}
+}

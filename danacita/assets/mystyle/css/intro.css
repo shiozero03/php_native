@@ -1,0 +1,115 @@
+.opening{
+	background-color: white;
+	min-height: 100vh;
+	width: 100%;
+	padding: 16px;
+}
+.version{
+	right: 16px;
+	top: 0;
+	padding: 8.5px 0;
+	font-size: 12px;
+	z-index: 1;
+	background-color: white;
+	width: 15%;
+	text-align: right;
+}
+.back-button{
+	left: 16px;
+	top: 0;
+	padding-top: 5px;
+	font-size: 20px;
+	color: #3151AA;
+	z-index: 1;
+	width: 15%;
+	background-color: white;
+}
+.welcome img.logdaf{
+	margin-top: 75px;
+}
+.welcome h5{
+	margin-top: 32px;
+	font-size: 20px;
+}
+.welcome p{
+	margin-top: 16px;
+	font-size: 14px;
+}
+.welcome img.wel{
+	width: 100%;
+}
+.bottom-opening{
+	bottom: 32px;
+	left: 16px;
+	right: 16px;
+}
+.bottom-opening button.next-button{
+	width: 100%;
+	background-color: #3151AA;
+	color: white;
+	padding: 8px 24px;
+}
+.bottom-opening a.go-login-button{
+	width: 49%;
+	color: white;
+	padding: 8px 24px;
+	border: 1px solid #3151AA;
+	color: #3151AA;
+	background-color: white;
+	font-weight: 500;
+}
+.bottom-opening a.go-daftar-button{
+	width: 49%;
+	color: white;
+	padding: 8px 24px;
+	border: 1px solid #3151AA;
+	background-color: #3151AA;
+	color: white;
+	font-weight: 500;
+}
+.toggle-slide{
+	margin-bottom: 24px;
+	font-size: 12px;
+}
+.slide-2-welcome a.version{
+	color: #3151AA;
+}
+.welcome form{
+	margin-top: 32px;
+	text-align: justify;
+}
+.welcome form label{
+	font-size: 14px;
+}
+.welcome form input.numberphone{
+	font-size: 14px;
+	padding-left: 50px;
+}
+.welcome form input.password{
+	font-size: 14px;
+	padding-right: 50px;
+}
+.welcome form input.regis-form{
+	font-size: 14px;
+}
+.plus62{
+	left: 5px;
+	margin-top:11px;
+	background-color: #ebf8ff;
+	font-size: 14px;
+	color: #3151AA;
+	font-weight: 600;
+}
+.eye62{
+	right: 5px;
+	margin-top:11px;
+	font-size: 14px;
+	color: #A0AEC0;
+	font-weight: 600;
+	cursor: pointer;
+}
+.button-login, .button-login:hover{
+	background-color: #3151AA;
+	color: white;
+	font-weight: 600;
+}
