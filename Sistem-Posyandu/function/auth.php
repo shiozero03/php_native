@@ -53,8 +53,6 @@
 							</script>
 						<?php
 					}
-
-
 				} else {
 					?>
 						<script type="text/javascript">
@@ -70,7 +68,17 @@
 				}
 			}
 		} else{
-			
+			?>
+                <script type="text/javascript">
+                    swal({
+                        title: "Gagal Login!",
+                        text: "Username atau Password Salah !",
+                        icon: "error"
+                    }).then(function() {
+                        window.location = "../";
+                    });
+                </script>
+            <?php
 		}
 	} else{
 		?>
